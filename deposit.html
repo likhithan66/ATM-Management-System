@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Deposit</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="atm-container">
+
+        <h1>DEPOSIT</h1>
+
+        <p>Enter deposit amount</p>
+
+
+        <input
+            type="number"
+            id="depositAmount"
+            placeholder="Enter amount"
+        >
+
+
+        <button
+            class="deposit-btn"
+            onclick="deposit()"
+        >
+            Deposit
+        </button>
+
+
+        <button onclick="goToATM()">
+            Back
+        </button>
+
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Withdraw</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <div class="atm-container">
+
+        <h1>WITHDRAW</h1>
+
+        <p>Enter withdrawal amount</p>
+
+
+        <input
+            type="number"
+            id="withdrawAmount"
+            placeholder="Enter amount"
+        >
+
+
+        <button
+            class="withdraw-btn"
+            onclick="withdraw()"
+        >
+            Withdraw
+        </button>
+
+
+        <button onclick="goToATM()">
+            Back
+        </button>
+
+
+        <p id="message"></p>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
